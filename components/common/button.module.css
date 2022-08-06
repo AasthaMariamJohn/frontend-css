@@ -1,0 +1,36 @@
+.button {
+	display: inline-flex;
+	align-items: center;
+	text-align: center;
+	height: 44px;
+	font-weight: 500;
+	border-radius: var(--rounded);
+	padding: 0 20px;
+	color: var(--white-color);
+	background-color: var(--black-color);
+}
+
+.icon-wrapper svg {
+	width: 18px;
+	height: 18px;
+	margin-right: 8px;
+}
+
+.sm .icon-wrapper svg {
+	width: 14px;
+	height: 14px;
+}
+
+.accent {
+	background-color: var(--accent-color);
+	color: var(--black-color);
+}
+
+.green {
+	background-color: var(--green-color);
+}
+
+.sm {
+	height: 40px;
+	padding: 0 16px;
+}
